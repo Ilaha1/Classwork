@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+
+    nav {
+        height: 60px;
+        background-color: black;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+
+            li {
+                  padding: 10px;
+                &:hover {
+                    background-color: white;
+                    border-radius: 3px;
+                    transform: scale(1.5);
+
+                    a {
+                        color: black;
+                    }
+                }
+
+                a {
+                    color: white;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,11 @@
+footer{
+    height: 70vh;
+    background-color:grey ;
+    .footer{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+   padding: 10px;
+       column-gap: 180px;
+    }
+}

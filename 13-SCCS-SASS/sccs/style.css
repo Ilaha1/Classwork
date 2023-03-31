@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+}
+.header nav {
+  height: 60px;
+  background-color: black;
+}
+.header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.header nav ul li {
+  padding: 10px;
+}
+.header nav ul li:hover {
+  background-color: white;
+  border-radius: 3px;
+  transform: scale(1.5);
+}
+.header nav ul li:hover a {
+  color: black;
+}
+.header nav ul li a {
+  color: white;
+}
+
+.sec2 {
+  height: 100vh;
+}
+.sec2 .body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+.sec2 .body .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+.sec2 .body .box:hover {
+  transform: rotateX(360deg);
+  transition-duration: 2s;
+}
+.sec2 .body .box:hover h3 {
+  display: none;
+}
+.sec2 .body .box:hover img {
+  display: block;
+}
+.sec2 .body .box img {
+  display: none;
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  height: 70vh;
+  background-color: grey;
+}
+footer .footer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  -moz-column-gap: 180px;
+       column-gap: 180px;
+}/*# sourceMappingURL=style.css.map */

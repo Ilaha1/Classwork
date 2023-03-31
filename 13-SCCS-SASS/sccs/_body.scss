@@ -1,0 +1,36 @@
+  .sec2 {
+      height: 100vh;
+
+      .body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          gap: 20px;
+
+          .box {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 200px;
+              height: 200px;
+              background-color: yellow;
+
+                     &:hover {
+                        transform: rotateX(360deg);
+                        transition-duration: 2s;
+                        h3{
+                            display: none;
+                        }
+                        img{
+                            display: block;
+                        }
+                        }
+                img {
+                    display: none;
+                    width:200px ;
+                    height: 200px;
+                }
+          }
+      }
+  }
