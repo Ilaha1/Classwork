@@ -54,6 +54,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-size: 36px;
 }
 .container header .part2 .text h3 {
   font-family: "Dancing Script", cursive;
@@ -69,7 +70,7 @@
   color: white;
   text-align: center;
   padding: 10px;
-  width: 90px;
+  width: 140px;
 }
 .container header .part2 .text .explore:hover {
   background-color: rgb(128, 113, 87);
